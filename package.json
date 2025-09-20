@@ -1,0 +1,25 @@
+{
+  "name": "mcp-papin-network-server",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node --watch index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "kanka", "rpg", "game"],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP Server for Kanka.io integration",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.1",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "undici": "^7.16.0",
+    "zod": "^3.25.76"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
